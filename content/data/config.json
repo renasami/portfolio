@@ -3,25 +3,25 @@
     "path_prefix": "/",
     "palette": "yellow",
     "header": {
-        "title": "Fjord",
-        "tagline": "Minimal and clean blog theme",
+        "title": "ren",
+        "tagline": "ren's portfolio site",
         "logo_img": "images/logo.svg",
         "logo_img_alt": "Fjord Logo",
-        "background_img": "images/header-bg.jpg",
+        "background_img": "images/with_base.jpg",
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
+                "label": "Top",
                 "url": "/",
                 "style": "link"
             },
             {
-                "label": "About",
+                "label": "About Me",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Style Guide",
+                "label": "My Work",
                 "url": "/style-guide",
                 "style": "link"
             },
@@ -35,37 +35,30 @@
         "social_links": [
             {
                 "label": "Twitter",
-                "url": "https://twitter.com/",
+                "url": "https://twitter.com/asamimimi_180",
                 "style": "icon",
                 "icon_class": "twitter",
                 "new_window": true
             },
             {
-                "label": "Instagram",
-                "url": "https://www.instagram.com/",
-                "style": "icon",
-                "icon_class": "instagram",
-                "new_window": true
-            },
-            {
                 "label": "GitHub",
-                "url": "https://github.com/",
+                "url": "https://github.com/renasami",
                 "style": "icon",
                 "icon_class": "github",
                 "new_window": true
             },
             {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
+                "label": "Facebook",
+                "url": "https://www.facebook.com/profile.php?id=100042972019675",
                 "style": "icon",
-                "icon_class": "linkedin",
+                "icon_class": "facebook",
                 "new_window": true
             },
             {
-                "label": "DEV",
-                "url": "https://dev.to/",
+                "label": "Qiita",
+                "url": "https://qiita.com/ren_180",
                 "style": "icon",
-                "icon_class": "dev",
+                "icon_class": "qiita",
                 "new_window": true
             }
         ]

@@ -3,28 +3,28 @@ title: Home
 has_more_link: true
 more_link_text: Keep reading
 seo:
-  title: Stackbit Fjord Theme
-  description: The preview of the Fjord theme
+  title: Portfolio
+  description: ren asami's portfolio
   extra:
     - name: 'og:type'
-      value: website
+      value: portfolio
       keyName: property
     - name: 'og:title'
-      value: Stackbit Fjord Theme
+      value: portfolio
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fjord theme
+      value: portfolio
       keyName: property
     - name: 'og:image'
       value: images/home.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
-      value: summary_large_image
+      value: portfolio
     - name: 'twitter:title'
-      value: Stackbit Fjord Theme
+      value: portfolio
     - name: 'twitter:description'
-      value: The preview of the Fjord theme
+      value: portfolio
     - name: 'twitter:image'
       value: images/home.jpg
       relativeUrl: true
