@@ -232,13 +232,12 @@ models:
           type: model
           models:
             - action
-  home:
+  work:
     type: page
-    urlPath: /
-    label: Home
-    layout: home
-    file: index.md
-    hideContent: true
+    urlPath: /work
+    label: Work
+    layout: work
+    file: work.md
     singleInstance: true
     fields:
       - type: string

@@ -21,6 +21,7 @@ export default class Header extends React.Component {
 
     componentWillUnmount() {
         window.removeEventListener('resize', this.handleWindowResize, true);
+        console.log(this.handleRouteChange)
         Router.events.off('routeChangeStart', this.handleRouteChange);
     }
 
@@ -97,7 +98,7 @@ export default class Header extends React.Component {
                         <div className="site-header-vertical">
                             <div className="site-branding">
                                 {logo && <p className="site-logo"><Link href={withPrefix('/')}><img src={withPrefix(logo)} alt={logoAlt} /></Link></p>}
-                                {pageLayout === 'home' ? <h1 className="site-title"><Link href={withPrefix('/')}>{title}</Link></h1>
+                                {pageLayout === 'work' ? <h1 className="site-title"><Link href={withPrefix('/')}>{title}</Link></h1>
                                     : <p className="site-title"><Link href={withPrefix('/')}>{title}</Link></p>}
                                 {tagline && <p className="site-description">{tagline}</p>}
                             </div>

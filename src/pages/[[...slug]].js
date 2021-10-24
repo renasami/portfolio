@@ -19,10 +19,12 @@ class Page extends React.Component {
 export async function getStaticPaths() {
     console.log('Page [...slug].js getStaticPaths');
     const paths = await sourcebitDataClient.getStaticPaths();
+    console.log('pathes',paths)
     return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
+    console.log('custom console', params)
     console.log('Page [...slug].js getStaticProps, params: ', params);
     const pagePath = '/' + (params.slug ? params.slug.join('/') : '');
     const props = await sourcebitDataClient.getStaticPropsForPageAtPath(pagePath);
