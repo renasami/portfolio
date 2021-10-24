@@ -56,7 +56,7 @@ export default class Contact extends React.Component {
                                         <FormField key={index} field={field} />
                                     ))}
                                     <div className="form-submit">
-                                        <button type="submit" className="button">{submitLabel}</button>
+                                        {/* <button type="submit" className="button">{submitLabel}</button> */}
                                     </div>
                                 </form>
                             </div>
