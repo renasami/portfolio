@@ -5,7 +5,7 @@ subtitle: >-
   The style guide is also a great reference for suggested typographic treatment
   and styles for your content.
 
-img_path: images/ren1.jpg
+img_path: /images/renren.jpg
 has_more_link: true
 more_link_text: Keep reading
 seo:
